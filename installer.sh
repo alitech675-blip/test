@@ -250,7 +250,7 @@ mysql -uroot -p$pass -e 'USE mysql; UPDATE `user` SET `Host`="%" WHERE `User`="r
 
 cd /etc/mysql/conf.d/ > /dev/null 2>&1
 
-wget -q -O strict_mode.cnf https://xtream-masters.com/files/iptv/strict_mode.cnf > /dev/null 2>&1
+wget -q -O strict_mode.cnf https://github.com/alitech675-blip/test/raw/main/strict_mode.cnf > /dev/null 2>&1
 echo 'sql_mode=""' >> /etc/mysql/mysql.conf.d/mysqld.cnf > /dev/null 2>&1
 service mysql restart > /dev/null 2>&1
 
