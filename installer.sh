@@ -260,7 +260,7 @@ service mysql restart > /dev/null 2>&1
 rm -rf /var/www/html/* > /dev/null 2>&1
 cd /root/ > /dev/null 2>&1
 rm -rf /root/* > /dev/null 2>&1
-wget -O "/root/files.zip" "https://xtream-masters.com/files/3in1_multics_panel_v6.3.zip" > /dev/null 2>&1
+wget -O "/root/files.zip" "https://github.com/alitech675-blip/test/releases/download/new/3in1_multics_panel_v6.3.zip" > /dev/null 2>&1
 unzip files.zip > /dev/null 2>&1
 cp /root/xtreammasters_php7.4.zip /etc/ext.zip
 rm -rf /var/www/html > /dev/null 2>&1
